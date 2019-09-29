@@ -36,7 +36,6 @@ public class Alien extends Sprite {
 
     public class Bomb extends Sprite {
 
-        private String bombImg = "src/images/bomb.png";
         private boolean destroyed;
 
         public Bomb(int x, int y) {
@@ -47,9 +46,11 @@ public class Alien extends Sprite {
         private void initBomb(int x, int y) {
 
             setDestroyed(true);
+
             this.x = x;
             this.y = y;
 
+            var bombImg = "src/images/bomb.png";
             var ii = new ImageIcon(bombImg);
             setImage(ii.getImage());
         }
