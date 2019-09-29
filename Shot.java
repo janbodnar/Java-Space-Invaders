@@ -1,12 +1,10 @@
 package com.zetcode;
 
+import com.zetcode.sprite.Sprite;
+
 import javax.swing.ImageIcon;
 
 public class Shot extends Sprite {
-
-    private final String shotImg = "src/images/shot.png";
-    private final int H_SPACE = 6;
-    private final int V_SPACE = 1;
 
     public Shot() {
     }
@@ -18,10 +16,14 @@ public class Shot extends Sprite {
 
     private void initShot(int x, int y) {
 
-        ImageIcon ii = new ImageIcon(shotImg);
+        var shotImg = "src/images/shot.png";
+        var ii = new ImageIcon(shotImg);
         setImage(ii.getImage());
-        
+
+        int H_SPACE = 6;
         setX(x + H_SPACE);
+        
+        int V_SPACE = 1;
         setY(y - V_SPACE);
     }
 }
