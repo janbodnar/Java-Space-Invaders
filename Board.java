@@ -27,8 +27,7 @@ public class Board extends JPanel {
     private List<Alien> aliens;
     private Player player;
     private Shot shot;
-
-
+    
     private int direction = -1;
     private int deaths = 0;
 
