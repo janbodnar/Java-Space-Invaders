@@ -1,7 +1,7 @@
 # Java Space Invaders
 Java Space Invaders game clone source code 
 
-http://zetcode.com/tutorials/javagamestutorial/spaceinvaders/
+http://zetcode.com/javagames/spaceinvaders/
 
 ![Space Invaders screenshot](spaceinvaders.png)
 
